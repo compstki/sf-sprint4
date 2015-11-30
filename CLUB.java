@@ -24,10 +24,10 @@ public class CLUB
         countOKbmi();
     }
 
-    private void setUpMemberList() throws IOException
+    public void setUpMemberList() throws IOException
     {
         // First user message
-        System.out.println("ScotFit Club: Membership BMI update");
+        System.out.println("ScotFit Club: Membership BMI update\n");
         System.out.println("** Preparing to read data file.");
 
         // read file, fetch data as String array containing the rows
